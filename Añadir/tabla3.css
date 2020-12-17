@@ -1,0 +1,138 @@
+
+.newProducto{
+  width: 600px;
+ margin: 100px auto;
+ border-radius: 10px;
+ padding: 10px;
+ background-color: white;
+}
+
+div form input{
+  margin: 8px 8px;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 10px;
+  border:solid 1px grey;
+}
+
+div h2{
+  margin: 15px auto;
+}
+
+
+
+input[type="file"]#nuestroinput {
+ width: 0.0px;
+ height: 0.0px;
+ opacity: 0;
+ overflow: hidden;
+ position: absolute;
+ z-index: -1;
+ }
+ .nuest1{
+ position: absolute;
+ display:inline-block;
+ margin: 0 10px;
+ font-size: 20px;
+ font-weight: 600 !important; /*Tamoño de ancho de letras o es para el peso en la pantalla investigar*/
+ color: #fff;
+ background-color: #00cc00;
+ cursor: pointer;
+ width: fit-content;  /*Sirve para adartar el ancho segun el contenido*/
+ padding: 15px 20px !important;
+ text-align: center;
+ border-radius: 20px;border:solid 1px grey;
+ width: 230px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+ }
+
+
+.nuest{
+  display:inline-block;
+  font-size: 20px;
+  font-weight: 600 !important; /*Tamoño de ancho de letras o es para el peso en la pantalla investigar*/
+  color: #fff;
+  background-color: #00cc00;
+  cursor: pointer;
+  width: fit-content;  /*Sirve para adartar el ancho segun el contenido*/
+  padding: 15px 20px !important;
+  text-align: center;
+  border-radius: 20px;border:solid 1px grey;
+  width: 230px;
+       white-space: nowrap;
+       text-overflow: ellipsis;
+       overflow: hidden;
+}
+
+.nuest:active{
+  transition: all .1s; /*Sirve para cambios duren .5seg*/
+  background:#037E8C;
+}
+
+.correcto{
+  color:#00cc00;
+  margin-bottom: 10px;
+}
+
+.incorrecto{
+  color:red;
+  margin-bottom: 10px;
+}
+
+
+@media screen and (max-width:800px ) {
+
+  .newProducto{
+    width: 80%;
+   margin: 100px auto;
+   border-radius: 10px;
+   padding: 10px;
+   background-color: white;
+  }
+
+  div form input{
+    margin: 2% 2%;
+    padding: 2%;
+    font-size: 100%;
+    border-radius: 10px;
+    border:solid 1px grey;
+  }
+
+
+
+  .nuest{
+   font-size: 15px;
+    width: fit-content;
+    padding: 4% 4% !important;
+    cursor: none;
+    width: 50%;
+         white-space: nowrap;
+         text-overflow: ellipsis;
+         overflow: hidden;
+  }
+
+  .nuest1{
+    font-size: 15px;
+     width: fit-content;
+     padding: 3.5% 3.5% !important;
+     cursor: none;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
+
+  }
+
+
+  .correcto{
+    color:#00cc00;
+    margin-bottom: 5%;
+  }
+
+  .incorrecto{
+    color:red;
+    margin-bottom: 5%;
+  }
+
+}

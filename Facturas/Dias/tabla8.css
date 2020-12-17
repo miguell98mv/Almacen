@@ -1,0 +1,71 @@
+
+.container{
+  background-color: #3030EF;
+  color: white;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  font-size: 25px;
+  padding: 5px 0;
+  margin-top: 20px;
+  border-radius: 20px;
+
+}
+.ventas{
+  margin: 0 auto;
+   width: 90%;
+  text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+.tabla{
+    background-color: white;
+  font-size: 100%;
+  border-collapse: collapse;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  align-content: center;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 1px 1px 5px #3030EF;
+}
+
+
+table tr th{
+  padding: 2px;
+  border-bottom: solid 2px #D3D3FF;
+}
+
+table tr td{
+  padding: 2px;
+  border-bottom: solid 2px #D3D3FF;
+}
+.borde_bajo{
+border: none;
+}
+
+@media screen and (max-width:800px ){
+
+.container{
+  cursor:default;
+  margin: 10px auto;
+  display: inline-block;
+  background-color: #3030EF;
+  color: white;
+  text-align: center;
+  width: 90%;
+  font-size: 100%;
+  padding: 2% 1%;
+  border-radius: 20px;
+}
+
+.tabla{
+  font-size: 60%;
+  padding: 0% 0%;
+  width: 80%;
+    margin-top: -10px;
+}
+}

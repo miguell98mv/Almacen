@@ -1,0 +1,159 @@
+
+.container{
+  cursor: pointer;
+  background-color: #3030EF;
+  color: white;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 25px;
+  padding: 5px 0;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.vendedor{
+font-size: 120%;
+margin-bottom: 20px;
+}
+
+.container2{
+  cursor: pointer;
+  display: inline-block;
+  background-color: #3030EF;
+  color: white;
+  text-align: center;
+  width: 40%;
+  font-size: 100%;
+  padding: 0.5% 0.5%;
+  border-radius: 20px;
+}
+
+.container2:active{
+  background-color: #4747C9;
+
+}
+
+.container3{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  align-content: center;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 25px;
+  padding: 5px 0;
+  margin-top: 20px;
+}
+
+.container:active{
+  background-color: #4747C9;
+}
+
+.container1:active{
+  background-color: #4747C9;
+}
+
+.container1{
+  background-color: #3030EF;
+  color: white;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 25px;
+  padding: 5px 0;
+  margin-top: 20px;
+  border-radius: 20px;
+    cursor: pointer;
+}
+
+
+
+
+.tabla{
+  font-size: 20px;
+  border-collapse: collapse;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  align-content: center;
+  margin-top: 10px;
+
+}
+
+table tr th{
+  padding: 2px;
+  border-bottom: solid 2px #D3D3FF;
+}
+
+table tr td{
+  padding: 2px;
+  border-bottom: solid 2px #D3D3FF;
+}
+
+.ventas{
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 5%;
+  border-radius: 20px;
+  background-color: white;
+}
+
+@media screen and (max-width:800px ) {
+a{
+cursor:default;
+}
+
+  	.container1{
+  	    cursor:default;
+        display: inline-block;
+        background-color: #3030EF;
+        color: white;
+        text-align: center;
+        margin: 3px;
+        width: 40%;
+        font-size: 100%;
+        padding: 2% 1%;
+        border-radius: 20px;
+  		}
+
+
+
+      .container{
+          cursor:default;
+        }
+
+  		.container2{
+  				cursor:default;
+  			}
+
+        .container2{
+          display: inline-block;
+          background-color: #3030EF;
+          color: white;
+          text-align: center;
+          width: 40%;
+          font-size: 70%;
+          padding: 2% 1%;
+          border-radius: 20px;
+        }
+
+
+        .container{cursor:default;
+          margin: 10px auto;
+          display: inline-block;
+          background-color: #3030EF;
+          color: white;
+          text-align: center;
+          width: 90%;
+          font-size: 100%;
+          padding: 2% 1%;
+          border-radius: 20px;
+        }
+
+        .vendedor{
+        font-size: 80%;
+        margin-bottom: 20px;
+        }
+}

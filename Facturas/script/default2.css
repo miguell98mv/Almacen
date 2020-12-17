@@ -1,0 +1,61 @@
+
+
+strong{
+    color: black;
+}
+
+
+
+.lista-autocompletar-items{
+    color: #ccc;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    z-index: 99;
+    right: 0;
+    width: 100%;
+    position:fixed;
+}
+
+#index_f{
+  border-radius: 0 0 10px 10px;
+}
+
+
+.lista-autocompletar-items div{/*El texto que mostrara en Autocompletado*/
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.lista-autocompletar-items div:hover{/*Cuando el cursor pase por encima del texto de Autocompletado*/
+    background-color: dodgerblue;
+}
+
+.autocompletar-active{ /*Cuando enfocamos el texto del Autocompletado*/
+    background-color: dodgerblue !important;
+    color: #a1caff;
+}
+.autocompletar-active strong{
+    color: #fff;
+}
+
+@media screen and (max-width:800px ) {
+
+  .lista-autocompletar-items{
+      top:40px;
+      color: #ccc;
+      font-size: 20px;
+      border: 1px solid #d4d4d4;
+      border-bottom: none;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      width:100%;
+      left: 0;
+      position:fixed;
+  }
+}
